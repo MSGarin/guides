@@ -28,5 +28,51 @@ PasswordAuthentication no
 5. restart ssh service; _(to do this, enter the command: ` sudo service ssh restart `)_
 6. disconnect from the server. _(to do this, enter the command: ` exit `)_
 ## Connection to the server via mosh
+To connect to the server via mosh you need to:
+1. open terminal;
+2. enter the command: ` mosh [username]@[server IP] `.
 
+### errors
+The following errors may occur during connection:
+#### 1
 
+```
+The locale requested by LC_CTYPE=UTF-8 isn't available here.
+Running `locale-gen UTF-8' may be necessary.
+
+The locale requested by LC_CTYPE=UTF-8 isn't available here.
+Running `locale-gen UTF-8' may be necessary.
+
+mosh-server needs a UTF-8 native locale to run.
+
+Unfortunately, the local environment (LC_CTYPE=UTF-8) specifies
+the character set "US-ASCII",
+
+The client-supplied environment (LC_CTYPE=UTF-8) specifies
+the character set "US-ASCII".
+
+locale: Cannot set LC_CTYPE to default locale: No such file or directory
+locale: Cannot set LC_ALL to default locale: No such file or directory
+LANG=
+LANGUAGE=
+LC_CTYPE=UTF-8
+LC_NUMERIC="POSIX"
+LC_TIME="POSIX"
+LC_COLLATE="POSIX"
+LC_MONETARY="POSIX"
+LC_MESSAGES="POSIX"
+LC_PAPER="POSIX"
+LC_NAME="POSIX"
+LC_ADDRESS="POSIX"
+LC_TELEPHONE="POSIX"
+LC_MEASUREMENT="POSIX"
+LC_IDENTIFICATION="POSIX"
+LC_ALL=
+Connection to [server IP] closed.
+/usr/local/bin/mosh: Did not find mosh server startup message. (Have you installed mosh on your server?)
+```
+The first thing to do to solve this is to run the ` locale ` command on the server and on the client, and compare the languages. 
+
+The language specified on the server must match the language on the client.
+
+At each new start of the terminal before connecting via mosh you should enter the following command: ` export LC_ALL=[service_nam] `
