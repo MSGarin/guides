@@ -76,3 +76,5 @@ The first thing to do to solve this is to run the ` locale ` command on the serv
 The language specified on the server must match the language on the client.
 
 At each new start of the terminal before connecting via mosh you should enter the following command: ` export LC_ALL=[service_nam] `
+## Packages must_have
+zsh - It is an alternative to shell.
