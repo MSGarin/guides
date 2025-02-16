@@ -77,8 +77,22 @@ The language specified on the server must match the language on the client.
 
 At each new start of the terminal before connecting via mosh you should enter the following command: ` export LC_ALL=[service_nam] `
 ## Packages must_have
-zsh - It is an alternative to shell.\
-tree - Displays the directory structure.\
-redis-server - Is an in-memory key-value store. [tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-debian-10)\
-nginx - Is a free and open-source web server used to host websites and applications of all sizes. [tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-debian-11)\
-libssl-dev - This package is part of the OpenSSL project's implementation of the SSL and TLS cryptographic protocols for secure communication over the Internet.
+1. zsh - it is an alternative to shell;
+2. tree - displays the directory structure;
+3. redis-server - is an in-memory key-value store; [tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-debian-10)
+4. nginx - is a free and open-source web server used to host websites and applications of all sizes; [tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-debian-11)
+5. libssl-dev - this package is part of the OpenSSL project's implementation of the SSL and TLS cryptographic protocols for secure communication over the Internet;
+6. zlib1g-dev - is a library implementing the deflate compression method found in gzip and PKZIP. This package includes the development support files;
+7. libbz2-dev - compresses files using the Burrows-Wheeler block-sorting text compression algorithm, and Huffman coding;
+8. libreadline-dev - the GNU readline library aids in the consistency of user interface across discrete programs that need to provide a command line interface;
+9. libsqlite3-dev - SQLite is a C library that implements an SQL database engine;
+10. llvm - is a collection of libraries and tools that make it easy to build compilers, optimizers, just-in-time code generators, and many other compiler-related programs. This is a dependency package providing the default llvm package;
+11. libncurses5-dev - is a development package containing the header files and libraries needed for compiling programs that utilize the ncurses library;
+12. libncursesw5-dev - ?
+13. xz-utils - is the successor to the Lempel-Ziv/Markov-chain Algorithm compression format, which provides memory-hungry but powerful compression (often better than bzip2) and fast, easy decompression. This package provides the command line tools for working with XZ compression, including xz, unxz, xzcat, xzgrep, and so on;
+14. tk-dev - is a cross-platform graphical toolkit which provides the Motif look-and-feel and is implemented using the Tcl scripting language. This package contains the headers and libraries needed to extend or embed Tk;
+15. libffi-dev - This package contains the headers and static library files necessary for building programs which use libffi. A foreign function interface is the popular name for the interface that allows code written in one language to call code written in another language;
+16. liblzma-dev - The native format of liblzma is XZ; it also supports raw (headerless) streams and the older LZMA format used by lzma. (For 7-Zip's related format, use the p7zip package instead.) This package provides the development library needed to build programs using liblzma;
+17. python3-dev - is a static library and development tools for building Python modules, extending the Python interpreter or embedding Python in applications;
+18. python3-pil - adds an image object to your Python interpreter. You can load images from a variety of file formats, and apply a rich set of image operations to them;
+19. 
