@@ -78,7 +78,9 @@ The language specified on the server must match the language on the client.
 At each new start of the terminal before connecting via mosh you should enter the following command: ` export LC_ALL=[service_nam] `
 ## Packages must_have
 [Packages for Debain](https://www.debian.org/distrib/packages)
-` sudo apt-get install -y zsh tree redis-server nginx libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python3-dev python3-pil python3-lxml libxslt-dev python3-libxml2 python-dev-is-python3 gnumeric libpq-dev libxml2-dev libxslt1-dev libjpeg-dev libfreetype6-dev libcurl4-openssl-dev supervisor `
+```
+sudo apt-get install -y zsh tree redis-server nginx libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python3-dev python3-pil python3-lxml libxslt-dev python3-libxml2 python-dev-is-python3 gnumeric libpq-dev libxml2-dev libxslt1-dev libjpeg-dev libfreetype6-dev libcurl4-openssl-dev supervisor
+```
 1. zsh - it is an alternative to shell;
 2. tree - displays the directory structure;
 3. redis-server - is an in-memory key-value store; [tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-debian-10)
