@@ -77,6 +77,8 @@ The language specified on the server must match the language on the client.
 
 At each new start of the terminal before connecting via mosh you should enter the following command: ` export LC_ALL=[service_nam] `
 ## Packages must_have
+[Packages for Debain](https://www.debian.org/distrib/packages)
+` sudo apt-get install -y zsh tree redis-server nginx libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python3-dev python3-pil python3-lxml libxslt-dev python3-libxml2 python-dev-is-python3 gnumeric libpq-dev libxml2-dev libxslt1-dev libjpeg-dev libfreetype6-dev libcurl4-openssl-dev supervisor `
 1. zsh - it is an alternative to shell;
 2. tree - displays the directory structure;
 3. redis-server - is an in-memory key-value store; [tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-debian-10)
@@ -95,4 +97,18 @@ At each new start of the terminal before connecting via mosh you should enter th
 16. liblzma-dev - The native format of liblzma is XZ; it also supports raw (headerless) streams and the older LZMA format used by lzma. (For 7-Zip's related format, use the p7zip package instead.) This package provides the development library needed to build programs using liblzma;
 17. python3-dev - is a static library and development tools for building Python modules, extending the Python interpreter or embedding Python in applications;
 18. python3-pil - adds an image object to your Python interpreter. You can load images from a variety of file formats, and apply a rich set of image operations to them;
-19. 
+19. python3-lxml - to work with .xml;
+20. libxslt-dev - is an XML language for defining transformations of XML files from XML to some other arbitrary format, such as XML, HTML, plain text, etc;
+21. python3-libxml2 - ?;
+22. python-libxslt1 - не найден;
+23. python-dev-is-python3 - this is a convenience package which ships a symlink to point /usr/bin/python-config script at the current default python3. It may improve compatibility with other modern systems, whilst breaking some obsolete or 3rd-party software;
+24. gnumeric - is a spreadsheet application that interoperates well with other spreadsheets. It comes with plugins that enable it to deal with commonly used spreadsheet file formats;
+25. libpq-dev - Header files and static library for compiling C programs to link with the libpq library in order to communicate with a PostgreSQL database backend;
+26. libxml2-dev - ;
+27. libxslt1-dev - XSLT is an XML language for defining transformations of XML files from XML to some other arbitrary format, such as XML, HTML, plain text, etc. using standard XSLT stylesheets. libxslt is a C library which implements XSLT version 1.0.;
+28. libjpeg-dev - this package depends on default Debian implementation of libjpeg.so.62 JPEG library;
+29. libfreetype6-dev - this package contains all of the supplementary files you need to develop your own programs using the FreeType 2 library. The FreeType project is a team of volunteers who develop free, portable and high-quality software solutions for digital typography. They specifically target embedded systems and focus on providing small, efficient and ubiquitous products;
+30. libcurl4-openssl-dev - This package provides the development files (ie. includes, static library, manual pages) that allow one to build software which uses libcurl. libcurl is an easy-to-use client-side URL transfer library, supporting DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET and TFTP.;
+31. supervisor - Supervisor is a system for controlling and maintaining process state, similar to what init does, but not intended as an init replacement.
+
+
