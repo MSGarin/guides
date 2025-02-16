@@ -81,6 +81,10 @@ At each new start of the terminal before connecting via mosh you should enter th
 ```
 sudo apt-get install -y zsh tree redis-server nginx libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python3-dev python3-pil python3-lxml libxslt-dev python3-libxml2 python-dev-is-python3 gnumeric libpq-dev libxml2-dev libxslt1-dev libjpeg-dev libfreetype6-dev libcurl4-openssl-dev supervisor
 ```
+<details>
+
+<summary>Package description</summary>
+
 1. zsh - it is an alternative to shell;
 2. tree - displays the directory structure;
 3. redis-server - is an in-memory key-value store; [tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-debian-10)
@@ -112,5 +116,5 @@ sudo apt-get install -y zsh tree redis-server nginx libssl-dev zlib1g-dev libbz2
 29. libfreetype6-dev - this package contains all of the supplementary files you need to develop your own programs using the FreeType 2 library. The FreeType project is a team of volunteers who develop free, portable and high-quality software solutions for digital typography. They specifically target embedded systems and focus on providing small, efficient and ubiquitous products;
 30. libcurl4-openssl-dev - This package provides the development files (ie. includes, static library, manual pages) that allow one to build software which uses libcurl. libcurl is an easy-to-use client-side URL transfer library, supporting DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, TELNET and TFTP.;
 31. supervisor - Supervisor is a system for controlling and maintaining process state, similar to what init does, but not intended as an init replacement.
-
+</details>
 
