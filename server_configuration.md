@@ -77,4 +77,8 @@ The language specified on the server must match the language on the client.
 
 At each new start of the terminal before connecting via mosh you should enter the following command: ` export LC_ALL=[service_nam] `
 ## Packages must_have
-zsh - It is an alternative to shell.
+zsh - It is an alternative to shell.\
+tree - Displays the directory structure.\
+redis-server - Is an in-memory key-value store. [tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-redis-on-debian-10)\
+nginx - Is a free and open-source web server used to host websites and applications of all sizes. [tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-debian-11)\
+libssl-dev - This package is part of the OpenSSL project's implementation of the SSL and TLS cryptographic protocols for secure communication over the Internet.
